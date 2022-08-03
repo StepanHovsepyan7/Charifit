@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&display=swap');
+.fixed{
+    position: fixed;
+    top: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+.headerParent{
+    display: flex;
+    margin-top: 10px;   
+}
+
+.firstSpan{
+    text-align: start;
+    margin-left: 5%;
+    width: 50%;
+    transition: 0.6s;
+}
+.firstSpan:hover{
+   color: #3CC78F;
+}
+.firstSpan i:last-child{
+    margin-left: 20px;
+}
+.socialicons{
+    margin-right: 5%;
+    text-align: end;
+    width: 50%;
+}
+.socialicons i{
+    margin: 0 2%;
+}
+.fa-envelope{
+    margin-right: 5px;
+}
+.icons{
+    transition: .3s;
+}
+.icons:hover{
+    color: #3CC78F;
+}
+
+.navBack{
+    background-color: #3CC78F;
+    border-radius: 10px;
+    min-height: 90px;
+    /* margin-top: 25px !important; */
+    z-index: 999999;
+    width: 90%;
+    margin: 0 5%;
+    transition: 1s !important;
+}
+.navbarBrand{
+    justify-content: end;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    border: 1px solid white;
+    background-color: #3CC78F;
+    transition: 0.7s;
+}
+.donateButton:hover{
+    color: #3CC78F;
+}
+.dropdownItem{
+    transition: .6s;
+}
+.dropdownItem:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.droptoglall{
+    transition: .6s !important;
+}
+.droptoglall:hover{
+    color: black !important;
+}
+
+.imgdiv{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+}
+.imgContent{
+    color: white;
+}
+.contentdiv1 h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+.contentdiv1 button{
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.contentdiv1 button:hover{
+    background-color: #3CC78F;
+    color: white;
+}
+.contentdiv1{
+    margin-left: 25%;
+    padding-top: 10%;
+}
+
+
+
+/* Reason of Helping */
+
+.img3{
+    border-radius: 20px;
+}
+ .nkarneriDivs{
+    position: relative;
+} 
+ .positionAbs{
+    position: absolute;
+    height: 242px;
+    width: 260px;
+    border-radius: 25px;
+    top: 50%;
+    left: 40%;
+    box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+} 
+.reasonH1{
+    text-align: center;
+}
+.reasonH4{
+    transition: 0.6s !important;
+    margin-top: 30px !important;
+}
+.reasonH4:hover{
+    color: #3CC78F !important;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    height: 60px;
+  }
+::-webkit-scrollbar-thumb {
+    background: #3CC78F; 
+    border-radius: 10px;
+  }
+.reasonSection{
+    animation: myani 2s ;
+    display: none;
+}
+@keyframes myani{
+    from{
+        opacity: 0;
+        transform: translateY(150px);
+    }
+}
