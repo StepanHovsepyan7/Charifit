@@ -31,8 +31,14 @@ $(function(){
                     display: "block",
                 })
             }
+
+            
 	});
 
+    let playicon = $('.fa-circle-play');
+    playicon.click(function(){
+        $('.avideo');
+    })
 });
 
 

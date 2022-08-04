@@ -143,3 +143,26 @@
         height: 131px !important;
     }
 }
+
+@media only screen and (max-width: 1484px){
+    .parent3Content {
+        left: 60% !important;
+        top: 30% !important;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 1260px){
+    .parent3Img{
+        display: none;
+    }
+    .parent3Content{
+        left: 32% !important;
+        top: 30% !important;
+    }
+}
+@media only screen and (max-width: 693px){
+    .parent3Content{
+        left: 15% !important;
+        text-align: center !important;
+    }
+}
