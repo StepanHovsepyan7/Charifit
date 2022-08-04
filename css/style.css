@@ -228,3 +228,55 @@ html{
     margin-top: 380px;
     cursor: pointer;
 }
+
+
+/* Popular Causes */
+
+.popH1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 30px;
+    
+}
+.spa{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 22px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Catamaran', sans-serif;
+    color: rgba(0, 0, 0, 0.211);
+}
+.pp{
+    margin-left: 22px;
+}
+.a1img{
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+.rowcolss{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    padding: 0 !important;
+    margin: 0 auto !important;
+    border-radius:10px;
+}
+.allh4s{
+    margin-top: 20px !important;
+    margin-left: 22px;
+}
+.readme{
+    margin-left: 88px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    color: #BCBDBF;
+    transition: 0.6s;
+}
+.readme:hover{
+    color: #3CC78F;
+    cursor: pointer;
+}
+
