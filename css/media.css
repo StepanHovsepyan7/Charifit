@@ -8,7 +8,13 @@
    .contentdiv1 button {
     height: 40px !important;
     width: 116px !important;
-}
+    }
+    .parent5{
+        width: 80% !important;
+    }
+    .parent5 > div {
+        width: 100% !important;
+    }
 }
 @media only screen and (max-width: 1224px){
     .positionAbs {
@@ -123,6 +129,9 @@
         width: 100%;
         height: 378px !important;
     }
+    .parent5 {
+        width: 90% !important;
+    }
 }
 @media only screen and (max-width: 727px){
     .imgdiv {
@@ -154,6 +163,18 @@
     .imgdiv {
         width: 100%;
         height: 131px !important;
+    }
+    .fa-calendar{
+        font-size: 20px !important;
+    }
+    .fa-heart-circle-bolt{
+        font-size: 20px !important;
+    }
+    .fa-hand-holding-heart{
+        font-size: 20px !important;
+    }
+    .fa-user-group{
+        font-size: 20px !important;
     }
 }
 
@@ -187,6 +208,9 @@
         left: 8% !important;
         margin-top: -90px;
     }
+    .parent5 {
+        width: 100% !important;
+    }
 }
 @media only screen and (max-width: 1260px){
     .parent3 {
@@ -204,7 +228,14 @@
         height: 484px !important;
     }
 }
-
+@media only screen and (max-width: 330px){
+    .positionAbs {
+        width: 181px !important;
+    }
+    .parent3Content{
+        margin-top: -131px;
+    }
+}
 
 
 

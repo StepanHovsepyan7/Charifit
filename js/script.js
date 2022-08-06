@@ -32,13 +32,23 @@ $(function(){
                 })
             }
 
-            
 	});
 
     let playicon = $('.fa-circle-play');
     playicon.click(function(){
         $('.avideo');
     })
+
+   
+    $({ countNum: 0 }).animate({ countNum: 120 }, {
+        delay: 1500,
+        duration: 4500,
+        easing: 'linear',
+        step: function(countNum) {
+          $(".flexh4").text(Math.ceil(countNum))
+        },
+    });
+
 });
 
 
