@@ -64,6 +64,9 @@
     .imgh4{
         font-size: 13px !important;
     }
+    .whitediv1 {
+        margin-top: 85% !important; 
+    } 
 }
 
 @media only screen and (max-width: 758px){
@@ -84,12 +87,19 @@
         height: 34px !important;
         width: 98px !important;
     }
+    .imagesVolunter {
+        height: 163px !important;
+        width: 166px !important;
+        margin-right: 15%;
+        margin-bottom: 36% !important;
+    }
 }
 @media only screen and (max-width: 488px){
     .imgdiv {
         height: 800px !important;
     }
 }
+
 @media only screen and (max-width: 437px){
     .fa-envelope {
         display: block !important;
@@ -138,6 +148,13 @@
         width: 100%;
         height: 279px !important;
     }
+    .whitediv222{
+        display: none !important;
+    }
+    .parent6h1 {
+        margin-left: 37% !important;
+        margin-bottom: 15% !important;
+    }
 }
 @media only screen and (max-width: 992px){
     .imgdiv {
@@ -150,7 +167,47 @@
     .spa{
         font-size: 9px !important;
     }
-   
+    .imagesVolunter{
+        height: 203px !important;
+        width: 203px !important;
+        margin-right: 15%;
+        margin-bottom: 13%;
+    }
+}
+
+@media only screen and (max-width: 945px){
+    .imagesVolunter {
+        height: 166px !important;
+        width: 161px !important;
+        margin-right: 15%;
+        margin-bottom: 31% !important; 
+    }
+    .whitediv1 {
+        margin-top: 76% !important;
+    }
+    .whiteDiv {
+        position: relative;
+        height: 254px !important;
+        width: 217px !important;
+        border-radius: 10px;
+        margin-left: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 854px){
+    .whiteDiv {
+        position: relative;
+        height: 272px !important;
+        width: 215px !important;
+        margin-left: 29px !important;   
+    }
+    .whitediv1 {
+        margin-top: 91% !important;
+    }
+    
+    .whitediv1 {
+        margin-top: 71% !important;
+    }
 }
 
 @media only screen and (max-width: 474px){
@@ -236,6 +293,31 @@
         margin-top: -131px;
     }
 }
+@media only screen and (max-width: 513px){
+    .imagesVolunter {
+        margin-right: 10%;
+        margin-bottom: 36% !important;
+    }
+    .whiteDiv{
+        height: 184px !important;
+        width: 215px !important;
+        margin-left: 58px !important;
+    }
+    .imagesVolunter {
+        margin-right: 10%;
+        margin-bottom: 14% !important;
+    }
+}
 
 
-
+@media only screen and (max-width: 450px){
+    .whiteDiv11{
+        display: none !important;
+        height: 213px !important;
+    }
+    .whiteDiv {
+        height: 210px !important;
+        width: 217px !important;
+        margin-left: 58px !important;
+    }   
+}

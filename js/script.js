@@ -39,6 +39,8 @@ $(function(){
         $('.avideo');
     })
 
+
+    // counter
    
     $({ countNum: 0 }).animate({ countNum: 120 }, {
         delay: 1500,
@@ -49,6 +51,7 @@ $(function(){
         },
     });
 
+    
 });
 
 

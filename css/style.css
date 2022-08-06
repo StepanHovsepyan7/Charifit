@@ -320,4 +320,49 @@ html{
 }
 .flexh4{
     margin-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+/* our Volunteer  */
+
+.parent6{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+.whiteDiv{
+    position: relative;
+    height: 284px;
+    width: 276px;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.whitediv1{
+    margin-top: 80%;
+    margin-left: 8%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+.whitediv2{
+    position: absolute;
+    top: 35%;
+    left: 86%
+}
+.imagesVolunter{
+    position: absolute;
+    bottom: 27%;
+    right: 21%;
+    height: 250px;
+    width: 242px;
+    border-radius: 10px;
+}
+.parent6h1{
+    margin-left: 43%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif;
 }
