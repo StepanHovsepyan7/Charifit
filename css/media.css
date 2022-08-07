@@ -309,6 +309,14 @@
     }
 }
 
+@media only screen and (max-width: 493px){
+    .radiodiv {
+        margin-left: 8px !important; 
+    }
+    .labelradio {
+        margin-left: 3px !important;
+    }
+}
 
 @media only screen and (max-width: 450px){
     .whiteDiv11{
@@ -320,4 +328,32 @@
         width: 217px !important;
         margin-left: 58px !important;
     }   
+      .parenttttt{
+        display: inline-block!important;
+    } 
+      .parentDonate {
+       transform: translate(-50%,-50%);
+       margin-left: 55%;
+    } 
+}
+@media only screen and (max-width: 400px){
+    .doantedivv {
+        margin-left: 35px !important;
+        width: 297px !important;
+    }
+}
+@media only screen and (max-width: 350px){
+    .doantedivv {
+        margin-left: 12px !important;
+        width: 297px !important;
+    }
+}
+@media only screen and (max-width: 350px){
+    .doantedivv {
+        margin-left: 4px !important;
+        width: 293px !important;
+    }
+    .positionAbs {
+        width: 180px !important;
+    }
 }
