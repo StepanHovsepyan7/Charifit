@@ -335,6 +335,10 @@
        transform: translate(-50%,-50%);
        margin-left: 55%;
     } 
+    .parent6h1 {
+        margin-left: 29% !important;
+        margin-bottom: 19% !important;
+    }
 }
 @media only screen and (max-width: 400px){
     .doantedivv {
