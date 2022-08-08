@@ -33,6 +33,7 @@ $(function(){
             }
 
 	});
+    
 
     let playicon = $('.fa-circle-play');
     playicon.click(function(){
@@ -51,7 +52,32 @@ $(function(){
         },
     });
 
-    
-});
+
+
+    $(window).bind('scroll', function() {
+        var navHeight = $( window ).height() - 860;
+             if ($(window).scrollTop() > navHeight) {
+                  $('.headernavv2').addClass('fixed');
+                  $('.headernavv2').css({
+                     width: '100%',
+                     marginLeft: '0px',
+                     marginTop: '-20px',
+                     borderRadius: '0px',
+                 })
+             }
+              else {
+                  $('.headernavv2').removeClass('fixed');
+                  $('.headernavv2').css({
+                     width: '90%',
+                     marginTop: '0',
+                     margin: "0 5%",
+                     borderRadius: '10px',
+                })
+             }
+ 
+
+ 
+     });
+})
 
 

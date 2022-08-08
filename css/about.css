@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.parentabouts{
+    background-image: url(../img/about.png);
+    display: flex;
+    align-items: center;
+    text-align: center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    width: 100%;
+}
+.imgabout h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    /* margin-top: 50px; */
+}
+.headernavv2{
+    position: absolute;
+    top: 20px;
+    position: fixed;
+}
