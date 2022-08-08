@@ -61,7 +61,7 @@ html{
     z-index: 999999;
     width: 90%;
     margin: 0 5%;
-    transition: .3s !important;
+    transition: .5s !important;
 }
 .navbarBrand{
     justify-content: end;

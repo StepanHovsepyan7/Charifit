@@ -52,6 +52,9 @@ $(function(){
         },
     });
 
+    
+    
+
 
 
     $(window).bind('scroll', function() {
@@ -69,8 +72,8 @@ $(function(){
                   $('.headernavv2').removeClass('fixed');
                   $('.headernavv2').css({
                      width: '90%',
-                     marginTop: '0',
-                     margin: "0 5%",
+                    //  marginTop: '-20px',
+                     margin: "20 5%",
                      borderRadius: '10px',
                 })
              }

@@ -15,6 +15,26 @@
     .parent5 > div {
         width: 100% !important;
     }
+    .iframeG{
+        height: 500px;
+        width: 80% !important;
+    }
+    .ContactParent {
+        margin-right: 50% !important;
+    }
+    .inpforms1 textarea {
+        height: 150px;
+        width: 100% !important;
+    }
+    .inpforms2 {
+        width: 180% !important;
+    }
+    .inpforms3 input {
+        width: 55% !important;
+    }
+    .inpforms3 {
+        width: 145% !important;
+    }
 }
 @media only screen and (max-width: 1224px){
     .positionAbs {
@@ -29,6 +49,11 @@
     }
     .pp{
         margin-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .inpforms2 input {
+        padding-left: 10px !important;
     }
 }
 @media only screen and (max-width: 1054px){
@@ -93,6 +118,10 @@
         margin-right: 15%;
         margin-bottom: 36% !important;
     }
+    .iframeG{
+        width: 90% !important;
+    }
+    
 }
 @media only screen and (max-width: 488px){
     .imgdiv {
@@ -142,6 +171,13 @@
     .parent5 {
         width: 90% !important;
     }
+    .inpforms2 {
+        width: 179% !important;
+    }
+    .inpforms1 textarea {
+        width: 150% !important;
+    }
+    
 }
 @media only screen and (max-width: 727px){
     .imgdiv {
@@ -267,6 +303,17 @@
     }
     .parent5 {
         width: 100% !important;
+    }
+    .iframeG{
+       display: none !important;
+    }
+    .inpforms1 textarea {
+        width: 200% !important;
+    }
+    .inpforms2 input {
+        border: 1px solid #e5e6e9;
+        height: 48px;
+        width: 90% !important;
     }
 }
 @media only screen and (max-width: 1260px){
