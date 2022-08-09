@@ -54,6 +54,7 @@ body{
 }
 .inpforms2{
     margin-left: 20%;
+    display: flex;
 }
 .inpforms3{
     margin-left: 20%;
@@ -66,6 +67,7 @@ body{
     height: 48px;
     width: 22%;
     padding-left: 18px;
+    margin-left: 5px;
     font-size: 13px;
     background: transparent;
     font-family: 'Abril Fatface', cursive;

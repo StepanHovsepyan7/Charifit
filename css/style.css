@@ -163,6 +163,7 @@ html{
 .reasonSection{
     animation: myani 2s ;
     display: none;
+    margin-top: 20px;
 }
 @keyframes myani{
     from{
