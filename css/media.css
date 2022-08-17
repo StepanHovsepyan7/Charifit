@@ -327,6 +327,9 @@
     .inpforms2 {
         width: 160% !important;
     }
+    .rowcolss{
+        width: 85% !important;
+    }
 }
 @media only screen and (max-width: 530px){
     .parent3Content{
@@ -343,6 +346,9 @@
 @media only screen and (max-width: 992px){
     .positionAbs{
         width: 187px !important;
+    }
+    .positionAbs p {
+        font-size: 13px !important;
     }
 }
 @media only screen and (max-width: 1260px){
