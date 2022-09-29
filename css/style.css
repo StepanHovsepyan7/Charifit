@@ -162,15 +162,15 @@ html{
   }
 .reasonSection{
     animation: myani 2s ;
-    display: none;
+    display: block;
     margin-top: 20px;
 }
-@keyframes myani{
+/* @keyframes myani{
     from{
         opacity: 0;
         transform: translateY(100px);
     }
-}
+} */
 
 
 /* donatesection */

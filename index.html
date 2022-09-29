@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
@@ -94,7 +95,7 @@
 
 
     <main>
-        <section class="reasonSection" >
+        <section class="reasonSection" data-aos="fade-up">
             <h1  class="reasonH1">Reason of Helping</h1>
             <div class="container text-center mt-5 veryBigCont">
                 <div class="row">
@@ -143,7 +144,7 @@
 
         <!-- Popular Causes -->
 
-        <section>
+        <section data-aos="fade-up">
           <h1 class="popH1">Popular Causes</h1>
           <div class="container mt-5">
             <div class="row">
@@ -218,7 +219,7 @@
 
        <!-- our Volunteer -->
        
-       <section id="volunter">
+       <section id="volunter" data-aos="fade-up">
         <h1 class="parent6h1">Our Volunteer</h1>
         <div class="parent6">
           <div class="whiteDiv whiteDiv11">
@@ -392,9 +393,16 @@
       </section> 
     </footer>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: true,
+      });
+    </script>
 </body>
 </html>
